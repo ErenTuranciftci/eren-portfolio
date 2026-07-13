@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Eren Turançiftçi — .NET ve Angular geliştirici portföyü">
+  <meta name="theme-color" content="#050c16">
+  <meta property="og:title" content="Eren Turançiftçi | Software Developer">
+  <meta property="og:description" content=".NET, Angular ve modern web teknolojileriyle geliştirilen kişisel portföy.">
+  <title>Eren Turançiftçi | Software Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">İçeriğe geç</a>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Ana menü" data-i18n-aria="navLabel">
+      <a class="brand" href="#top" aria-label="Ana sayfa" data-i18n-aria="homeLabel">
+        <span class="brand-mark">ET</span>
+        <span class="brand-name">Eren Turançiftçi</span>
+      </a>
+
+      <div class="nav-actions">
+        <div class="language-switch" role="group" aria-label="Dil seçimi" data-i18n-aria="languageLabel">
+          <button class="lang-button active" type="button" data-lang="tr" aria-pressed="true">TR</button>
+          <span>/</span>
+          <button class="lang-button" type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menüyü aç" data-i18n-aria="menuOpen">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about" data-i18n="navAbout">Hakkımda</a>
+        <a href="#skills" data-i18n="navSkills">Yetenekler</a>
+        <a href="#experience" data-i18n="navExperience">Deneyim</a>
+        <a href="#education" data-i18n="navEducation">Eğitim</a>
+        <a href="#contact" data-i18n="navContact">İletişim</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="hero-orb orb-one" aria-hidden="true"></div>
+      <div class="hero-orb orb-two" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span><span data-i18n="hello">Merhaba, ben</span></p>
+          <h1 id="hero-title">Eren<br><strong>Turançiftçi</strong></h1>
+          <p class="hero-role" data-i18n="heroRole">.NET & Angular Developer</p>
+          <p class="hero-lead" data-i18n="heroLead">C#, ASP.NET Core, Angular ve SQL ile sürdürülebilir, ölçeklenebilir web uygulamaları geliştiriyorum.</p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="assets/Eren-Turanciftci-CV.pdf" download>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 19h14"/></svg>
+              <span data-i18n="downloadCv">CV'yi İndir</span>
+            </a>
+            <a class="button secondary" href="https://github.com/ErenTuranciftci" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-.4 6.8-1.6 6.8-7A5.4 5.4 0 0 0 19.4 4 5 5 0 0 0 19.3.5S18.2.1 15 1.8a13.4 13.4 0 0 0-7 0C4.8.1 3.7.5 3.7.5A5 5 0 0 0 3.6 4a5.4 5.4 0 0 0-1.4 3.7c0 5.4 3.5 6.6 6.8 7A4.8 4.8 0 0 0 8 18v4M8 19c-3 .9-3-1.5-4-2"/></svg>
+              GitHub
+            </a>
+            <a class="button secondary" href="https://www.linkedin.com/in/eren-turanciftci" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V9h4v2a4 4 0 0 1 2-3zM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+
+          <div class="hero-metrics" aria-label="Özet bilgiler" data-i18n-aria="summaryLabel">
+            <div><strong>2019</strong><span data-i18n="metricGraduate">Mezuniyet</span></div>
+            <div><strong>5+</strong><span data-i18n="metricExperience">Proje deneyimi</span></div>
+            <div><strong>TR / EN</strong><span data-i18n="metricLanguage">Dil desteği</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Kod ve teknoloji illüstrasyonu" data-i18n-aria="visualLabel">
+          <div class="visual-grid" aria-hidden="true"></div>
+          <div class="visual-glow" aria-hidden="true"></div>
+          <div class="tech-badge badge-dotnet"><span>.NET</span></div>
+          <div class="tech-badge badge-angular"><span>A</span></div>
+          <div class="tech-badge badge-api"><span>API</span></div>
+          <div class="tech-badge badge-sql"><span>SQL</span></div>
+          <div class="connection-line line-one" aria-hidden="true"></div>
+          <div class="connection-line line-two" aria-hidden="true"></div>
+          <div class="connection-line line-three" aria-hidden="true"></div>
+
+          <div class="laptop">
+            <div class="laptop-screen">
+              <div class="code-window">
+                <div class="window-bar"><span></span><span></span><span></span><small>portfolio.service.ts</small></div>
+                <pre aria-hidden="true"><code><span class="c-purple">export class</span> <span class="c-blue">Developer</span> {
+  name = <span class="c-orange">'Eren'</span>;
+  stack = [
+    <span class="c-orange">'.NET'</span>, <span class="c-orange">'Angular'</span>,
+    <span class="c-orange">'SQL'</span>, <span class="c-orange">'REST API'</span>
+  ];
+
+  build() {
+    <span class="c-purple">return</span> <span class="c-blue">cleanArchitecture</span>();
+  }
+}</code></pre>
+              </div>
+            </div>
+            <div class="laptop-base"></div>
+          </div>
+
+          <div class="visual-caption">
+            <span class="pulse"></span>
+            <span data-i18n="visualCaption">Modern web çözümleri geliştiriyorum</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-card-wrap" id="about">
+      <div class="container">
+        <article class="about-panel reveal">
+          <div class="section-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M20 21a8 8 0 0 0-16 0M12 13a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"/></svg>
+          </div>
+          <div class="panel-heading">
+            <p class="eyebrow" data-i18n="aboutIndex">01 / Hakkımda</p>
+            <h2 data-i18n="aboutTitle">Analitik düşünceyi çalışan ürüne dönüştürüyorum.</h2>
+          </div>
+          <div class="about-content">
+            <p data-i18n="aboutText1">Bilgisayar mühendisiyim. Backend tarafında .NET ve C#, frontend tarafında Angular kullanarak uçtan uca web uygulamaları geliştiriyorum.</p>
+            <p data-i18n="aboutText2">OOP, SOLID, Entity Framework, REST API ve N-Tier mimari bilgimi gerçek proje deneyimiyle birleştiriyor; anlaşılır, test edilebilir ve sürdürülebilir kod üretmeye odaklanıyorum.</p>
+            <div class="about-facts">
+              <div><span data-i18n="locationLabel">Konum</span><strong data-i18n="locationValue">İstanbul, Türkiye</strong></div>
+              <div><span data-i18n="focusLabel">Odak</span><strong data-i18n="focusValue">Backend & Full Stack</strong></div>
+              <div><span data-i18n="englishLabel">İngilizce</span><strong data-i18n="englishValue">İleri Seviye</strong></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow" data-i18n="skillsIndex">02 / Teknik Yetkinlikler</p>
+            <h2 data-i18n="skillsTitle">Kullandığım teknolojiler</h2>
+          </div>
+          <p data-i18n="skillsIntro">Backend, frontend, veri ve mimari katmanlarında kullandığım temel araçlar.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="skill-icon csharp">C#</div><h3>C#</h3><p data-i18n="skillCsharp">Backend geliştirme</p></article>
+          <article class="skill-card reveal"><div class="skill-icon dotnet">.NET</div><h3>.NET Core</h3><p data-i18n="skillDotnet">Web uygulamaları</p></article>
+          <article class="skill-card reveal"><div class="skill-icon api">API</div><h3>ASP.NET Web API</h3><p data-i18n="skillApi">REST servisleri</p></article>
+          <article class="skill-card reveal"><div class="skill-icon angular">A</div><h3>Angular</h3><p data-i18n="skillAngular">Modern arayüzler</p></article>
+          <article class="skill-card reveal"><div class="skill-icon ef">EF</div><h3>Entity Framework</h3><p data-i18n="skillEf">Veri erişimi</p></article>
+          <article class="skill-card reveal"><div class="skill-icon sql">SQL</div><h3>SQL Server</h3><p data-i18n="skillSql">Veritabanı</p></article>
+          <article class="skill-card reveal"><div class="skill-icon js">JS</div><h3>JavaScript</h3><p data-i18n="skillJs">Web geliştirme</p></article>
+          <article class="skill-card reveal"><div class="skill-icon java">J</div><h3>Java</h3><p data-i18n="skillJava">Uygulama geliştirme</p></article>
+          <article class="skill-card reveal"><div class="skill-icon abap">SAP</div><h3>SAP ABAP</h3><p data-i18n="skillAbap">Kurumsal yazılım</p></article>
+          <article class="skill-card reveal"><div class="skill-icon arch">{ }</div><h3 data-i18n="architectureTitle">Mimari</h3><p>OOP, SOLID, N-Tier</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow" data-i18n="experienceIndex">03 / Deneyim</p>
+            <h2 data-i18n="experienceTitle">Profesyonel yolculuğum</h2>
+          </div>
+          <p data-i18n="experienceIntro">Yazılım geliştirme, test ve iş süreçlerinde edindiğim deneyimler.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date" data-i18n="dateTurmob">Mayıs 2025 — Ağustos 2025</div>
+            <div class="timeline-content">
+              <p class="role-label" data-i18n="roleInternDeveloper">Stajyer Yazılım Geliştirici</p>
+              <h3>TÜRMOB</h3>
+              <p data-i18n="turmobText">Mali müşavirler ile şirketleri buluşturan bir platformda .NET backend ve Angular frontend geliştirmeleri yaptım. Talep edilen sayfaları uçtan uca geliştirerek entegrasyon ve test süreçlerine katkı sağladım.</p>
+              <div class="tags"><span>C#</span><span>.NET</span><span>Angular</span><span>Web API</span><span>SQL Server</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date" data-i18n="dateSecretary">Aralık 2020 — Ağustos 2024</div>
+            <div class="timeline-content">
+              <p class="role-label" data-i18n="roleSecretary">Sekreter</p>
+              <h3>YMM Bayram Turançiftçi</h3>
+              <p data-i18n="secretaryText">Ofis operasyonları, iletişim ve idari süreçlerin düzenli yürütülmesinde görev aldım; takip, sorumluluk yönetimi ve profesyonel iletişim becerilerimi geliştirdim.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date" data-i18n="dateMatte">Aralık 2018 — Eylül 2020</div>
+            <div class="timeline-content">
+              <p class="role-label" data-i18n="roleTester">Part-Time Oyun Test Uzmanı</p>
+              <h3>Matte Studio</h3>
+              <p data-i18n="matteText">Captain Kaplow, Dodgeball Duel, Bombardo ve Crowd Master oyunlarını yayın öncesinde test ederek hataları raporladım ve geliştirici ekibe geri bildirim sundum.</p>
+              <div class="tags"><span>Testing</span><span>Bug Reporting</span><span>Unity</span><span>C#</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date" data-i18n="dateYakin">Ağustos 2017 — Eylül 2017</div>
+            <div class="timeline-content">
+              <p class="role-label" data-i18n="roleIntern">Stajyer</p>
+              <h3>YakınKampüs</h3>
+              <p data-i18n="yakinText">Unity eğitim içeriğinin hazırlanmasına katkı sağladım; benzer içerikleri araştırarak eğitim yapısı ve anlatım yaklaşımı için öneriler geliştirdim.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date" data-i18n="dateKuax">Mayıs 2016 — Haziran 2016</div>
+            <div class="timeline-content">
+              <p class="role-label" data-i18n="roleIntern2">Stajyer</p>
+              <h3>Kuax</h3>
+              <p data-i18n="kuaxText">Etkinlik hashtag'leriyle paylaşılan tweetleri toplayıp dijital ekranlarda gösteren Java tabanlı bir uygulama geliştirdim ve proje ilerlemesini günlük olarak raporladım.</p>
+              <div class="tags"><span>Java</span><span>API Integration</span><span>Reporting</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow" data-i18n="educationIndex">04 / Eğitim</p>
+            <h2 data-i18n="educationTitle">Eğitim & sertifikalar</h2>
+          </div>
+        </div>
+        <div class="education-grid">
+          <article class="education-card reveal">
+            <div class="education-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-5 9 5-9 5-9-5zm4 2.5V17l5 3 5-3v-4.5M21 10v6"/></svg></div>
+            <div><span>2019</span><h3 data-i18n="university">Işık Üniversitesi</h3><p data-i18n="degree">Bilgisayar Mühendisliği — Lisans</p></div>
+          </article>
+          <article class="education-card reveal">
+            <div class="education-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18H6zM9 7h6M9 11h6M9 15h3"/></svg></div>
+            <div><span data-i18n="certificate">Sertifika</span><h3>BilgeAdam Akademi</h3><p data-i18n="dotnetCertificate">.NET Katılım Sertifikası</p></div>
+          </article>
+          <article class="education-card reveal">
+            <div class="education-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.7 8 11 4.6-1.3 8-6 8-11V5l-8-3zm-3 9 2 2 4-4"/></svg></div>
+            <div><span data-i18n="certificate2">Sertifika</span><h3>Impress Akademi</h3><p data-i18n="abapCertificate">SAP ABAP Uzman Danışmanlık Eğitimi</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <article class="contact-card reveal">
+          <div class="contact-copy">
+            <p class="eyebrow" data-i18n="contactIndex">05 / İletişim</p>
+            <h2 data-i18n="contactTitle">Birlikte değer üretelim.</h2>
+            <p data-i18n="contactText">Yazılım geliştirme pozisyonları, proje iş birlikleri ve profesyonel bağlantılar için benimle iletişime geçebilirsiniz.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="contact-link" href="mailto:erenturanciftci@gmail.com">
+              <span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3zM3 6l9 7 9-7"/></svg></span>
+              <span><small data-i18n="emailLabel">E-posta</small><strong>erenturanciftci@gmail.com</strong></span>
+            </a>
+            <a class="button primary" href="mailto:erenturanciftci@gmail.com" data-i18n="sendEmail">E-posta Gönder</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> Eren Turançiftçi. <span data-i18n="rights">Tüm hakları saklıdır.</span></p>
+      <a class="back-to-top" id="back-to-top" href="#top" data-i18n="backTop">Yukarı dön ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
